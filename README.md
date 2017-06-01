@@ -1,1 +1,6 @@
-# Ali-Weixin-QRPay
+# 支付宝微信付款码合二为一
+
+## 使用必读
+使用前请做以下修改
+1. 修改server.js 文件，alipay_link 替换成你自己的支付宝付款码的链家。
+2. 替换图片 public/images/weixin.jpg 图片,换成你自己的微信二维码，为了美观最好保持默认大小。

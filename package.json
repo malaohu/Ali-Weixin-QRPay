@@ -4,6 +4,7 @@
   "author": "malaohu",
   "description": "将支付宝微信付款码合并成一个二维码",
   "dependencies": {
-    "express": "4.*"
+    "express" : "4.*",
+    "ejs" : "*"
   }
 }

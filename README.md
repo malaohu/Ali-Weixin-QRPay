@@ -17,3 +17,6 @@ cd Ali-Weixin-QRPay
 npm install
 node server.js
 ```
+
+## 在线演示
+http://onepay.jike.info/

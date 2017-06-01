@@ -1,0 +1,9 @@
+{
+  "name": "Ali-Weixin-QRPay",
+  "version": "0.0.1",
+  "author": "malaohu",
+  "description": "将支付宝微信付款码合并成一个二维码",
+  "dependencies": {
+    "express": "4.*"
+  }
+}

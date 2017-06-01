@@ -1,0 +1,32 @@
+﻿<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Build on top of Pure.">
+    <title>收款码合并 - 如有乐享 - 51.RUYO.net</title>
+    <link rel="stylesheet" href="https://fonts.lug.ustc.edu.cn/css?family=Raleway:200">
+    <link href="//cdn.bootcss.com/pure/0.6.0/pure-min.css" rel="stylesheet" />
+    <link href="css/css.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="main">
+        <div class="header">
+            <h2>请使用支付宝或微信客户端扫码付款</h2>
+        </div>
+        <div class="content">
+            <br />
+            <div id="pay_qr" style="text-align:center"></div>
+        </div>
+    </div>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    <script>
+        $(function () {
+            var src = window.location.origin + '/code';
+            $("#pay_qr").qrcode({ width: 350, height: 350, text: src });
+
+        })();
+    </script>
+</body>
+</html>

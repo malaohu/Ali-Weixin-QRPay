@@ -8,10 +8,12 @@
 
 ## 部署向导
 需要Nodejs 0.12.0（含） +
+
 推荐使用NVM安装 http://51.ruyo.net/p/3214.html#3
-···
+
+```
 git clone https://github.com/malaohu/Ali-Weixin-QRPay.git
 cd Ali-Weixin-QRPay
 npm install
 node server.js
-···
+```
